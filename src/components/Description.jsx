@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <article className="">
+    <article className="sm:mt-36 mt-56 sm:m-0 sm:w-[800px] sm:mx-auto">
       <section className="">
         <h2 className="text-3xl sm:text-5xl mx-5 z-10 max-w-[44rem] font-semibold">
           Designs and Applications <br /> Jeimy Jara a FrontEnd Developer from

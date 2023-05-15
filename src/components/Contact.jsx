@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="py-10 grid mx-8 place-content-center bg-[url('/images/last.png')] bg-contain min-h-screen bg-no-repeat">
+    <section className="py-10 grid mx-8 place-content-center ">
       <article className="bg-blue-800/50 rounded-lg border-[2px] border-blue-900 py-5 px-10 sm:px-20 max-w-[650px] grid sm:grid-cols-2">
         <section>
           <h2 id="contact" className="text-2xl font-bold">

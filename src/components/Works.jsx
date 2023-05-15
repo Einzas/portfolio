@@ -65,14 +65,14 @@ const Works = () => {
   };
 
   return (
-    <section className="min-h-screen relative bg-[url('/images/Background.png')] bg-cover bg-center overflow-hidden">
-      <div className="text-center pt-10 absolute left-0 right-0 sm:top-0 top-44 ">
+    <section className="w-full max-w-3xl m-auto p-10 ">
+      <div className="text-center pt-10  ">
         <span id="work" className="font-bold text-white text-xl sm:text-3xl ">
           My Recent Works
         </span>
       </div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <div className="overflow-hidden relative">
+      <div className=" ">
+        <div className="overflow-hidden relative   ">
           <section
             className={`flex w-[600%] ${stylePositionImages[imageToShow]} duration-200 `}
           >

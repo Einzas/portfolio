@@ -8,24 +8,21 @@ import Footer from "./components/Footer";
 function App() {
   const [menuShow, setMenuShow] = useState(false);
   return (
-    <>
-      <main className="bg-[#0F103F] overflow-hidden text-white">
-        <section className=" min-h-screen px-5  bg-[url('/images/Home.png')] bg-cover bg-center bg-no-repeat grid place-content-center ">
-          <header className="absolute left-0 right-0">
-            <Header menuShow={menuShow} setMenuShow={setMenuShow} />
-          </header>
-          <Description />
-        </section>
-
-        <About></About>
-
-        <Works></Works>
-
-        <Contact></Contact>
-
-        <Footer></Footer>
-      </main>
-    </>
+    <section className="bg-[#0F103F] mx-0 w-full overflow-hidden text-white ">
+      <article className="bg-[url('/images/Home1.png')] bg-no-repeat   bg-center bg-cover">
+        <Header menuShow={menuShow} setMenuShow={setMenuShow} />
+        <Description />
+        <main className="py-80"></main>
+      </article>
+      <About />
+      <article className="bg-[url('/images/Background.png')] bg-cover bg-center bg-no-repeat overflow-hidden py-64">
+        <Works />
+      </article>
+      <article className="bg-[url('/images/last.png')] bg-contain min-h-screen bg-no-repeat py-40">
+        <Contact />
+      </article>
+      <Footer />
+    </section>
   );
 }
 
